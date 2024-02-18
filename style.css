@@ -1,0 +1,44 @@
+body{
+    background-color:burlywood;
+}
+
+#score{
+    float: left;
+    font-size:35px;
+    margin-left:25px;
+}
+
+#time{
+    float: right;
+    font-size:35px;
+    margin-right:25px;
+}
+
+canvas{
+    border:5px solid white;
+    border-radius: 20px;
+    animation-name:example;
+    animation-duration: 4s;
+    margin-top:50px;
+    animation-iteration-count:infinite;
+}
+
+@keyframes example{
+    0%{box-shadow:5px 5px 38px rgb(246, 255, 0)}
+    50%{box-shadow:5px 5px 38px rgb(193, 193, 90)}
+    100%{box-shadow:5px 5px 38px rgb(200, 221, 124)}
+}
+
+h1{
+background-color: cornsilk;
+color:rgb(255, 0, 0);
+}
+
+#show_sketch{
+float:right;
+}
+
+p{
+    padding:7px;
+    font-size:20px;
+}
